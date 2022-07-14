@@ -24,6 +24,7 @@ $result =mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 //echo $row['Poor'];
 $c= $row['Poor'];
+mysqli_close($conn);
 
 
 ?>
